@@ -1,0 +1,69 @@
+/*body{
+    height: max-content;
+}*/
+.user-card {
+    background: #f8f9fa;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    padding: 1em;
+    margin-bottom: 1.5em;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post {
+    color: #2d2d2d;
+    font-size: 2em;
+    margin-bottom: 1em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.username {
+    color: #0077b6;
+    font-size: 1.2em;
+    margin: 0.5em 0 0.2em 0;
+    font-weight: 500;
+}
+
+.content {
+    color: #333;
+    font-size: 1em;
+    margin-bottom: 1em;
+    padding-left: 1em;
+}
+
+form {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    padding: 2em;
+    max-width: 400px;
+    margin: 2em auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.input {
+    width: 100%;
+    padding: 0.7em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    margin-bottom: 0.5em;
+}
+
+.text-area {
+    width: 100%;
+    min-height: 100px;
+    padding: 0.7em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    resize: vertical;
+    margin-bottom: 0.5em;
+}
